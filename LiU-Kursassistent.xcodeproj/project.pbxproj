@@ -22,6 +22,8 @@
 		F329BE8D165126C10083D309 /* LiU_Kursassistent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F329BE8B165126C10083D309 /* LiU_Kursassistent.xcdatamodeld */; };
 		F329BE90165126C10083D309 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE8F165126C10083D309 /* MasterViewController.m */; };
 		F329BE93165126C10083D309 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE92165126C10083D309 /* DetailViewController.m */; };
+		F3D0F44A1651286400A0D851 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F4491651286400A0D851 /* Course.m */; };
+		F3D0F44E1651286C00A0D851 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F44D1651286C00A0D851 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		F329BE8F165126C10083D309 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		F329BE91165126C10083D309 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F329BE92165126C10083D309 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F3D0F4481651286400A0D851 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		F3D0F4491651286400A0D851 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		F3D0F44C1651286C00A0D851 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F3D0F44D1651286C00A0D851 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,10 @@
 		F329BE73165126C10083D309 /* LiU-Kursassistent */ = {
 			isa = PBXGroup;
 			children = (
+				F3D0F4481651286400A0D851 /* Course.h */,
+				F3D0F4491651286400A0D851 /* Course.m */,
+				F3D0F44C1651286C00A0D851 /* User.h */,
+				F3D0F44D1651286C00A0D851 /* User.m */,
 				F329BE7C165126C10083D309 /* AppDelegate.h */,
 				F329BE7D165126C10083D309 /* AppDelegate.m */,
 				F329BE85165126C10083D309 /* MainStoryboard_iPhone.storyboard */,
@@ -194,6 +204,8 @@
 				F329BE8D165126C10083D309 /* LiU_Kursassistent.xcdatamodeld in Sources */,
 				F329BE90165126C10083D309 /* MasterViewController.m in Sources */,
 				F329BE93165126C10083D309 /* DetailViewController.m in Sources */,
+				F3D0F44A1651286400A0D851 /* Course.m in Sources */,
+				F3D0F44E1651286C00A0D851 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +332,7 @@
 				F329BE98165126C10083D309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
