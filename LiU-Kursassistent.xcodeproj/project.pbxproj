@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F6AB10E16512A3B00838BED /* Deadline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AB10D16512A3B00838BED /* Deadline.m */; };
 		F329BE6C165126C10083D309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE6B165126C10083D309 /* UIKit.framework */; };
 		F329BE6E165126C10083D309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE6D165126C10083D309 /* Foundation.framework */; };
 		F329BE70165126C10083D309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE6F165126C10083D309 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F6AB10C16512A3B00838BED /* Deadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deadline.h; sourceTree = "<group>"; };
+		8F6AB10D16512A3B00838BED /* Deadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deadline.m; sourceTree = "<group>"; };
 		F329BE67165126C10083D309 /* LiU-Kursassistent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiU-Kursassistent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F329BE6B165126C10083D309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F329BE6D165126C10083D309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +103,8 @@
 		F329BE73165126C10083D309 /* LiU-Kursassistent */ = {
 			isa = PBXGroup;
 			children = (
+				8F6AB10C16512A3B00838BED /* Deadline.h */,
+				8F6AB10D16512A3B00838BED /* Deadline.m */,
 				F3D0F4481651286400A0D851 /* Course.h */,
 				F3D0F4491651286400A0D851 /* Course.m */,
 				F3D0F44C1651286C00A0D851 /* User.h */,
@@ -206,6 +211,7 @@
 				F329BE93165126C10083D309 /* DetailViewController.m in Sources */,
 				F3D0F44A1651286400A0D851 /* Course.m in Sources */,
 				F3D0F44E1651286C00A0D851 /* User.m in Sources */,
+				8F6AB10E16512A3B00838BED /* Deadline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
