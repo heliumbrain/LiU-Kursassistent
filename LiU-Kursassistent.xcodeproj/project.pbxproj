@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F329BE2F165122240083D309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE2E165122240083D309 /* UIKit.framework */; };
+		F329BE31165122240083D309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE30165122240083D309 /* Foundation.framework */; };
+		F329BE33165122240083D309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329BE32165122240083D309 /* CoreGraphics.framework */; };
+		F329BE39165122240083D309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F329BE37165122240083D309 /* InfoPlist.strings */; };
+		F329BE3B165122240083D309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE3A165122240083D309 /* main.m */; };
+		F329BE3F165122240083D309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE3E165122240083D309 /* AppDelegate.m */; };
+		F329BE41165122240083D309 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F329BE40165122240083D309 /* Default.png */; };
+		F329BE43165122240083D309 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F329BE42165122240083D309 /* Default@2x.png */; };
+		F329BE45165122240083D309 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F329BE44165122240083D309 /* Default-568h@2x.png */; };
+		F329BE48165122240083D309 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F329BE46165122240083D309 /* MainStoryboard_iPhone.storyboard */; };
+		F329BE4B165122240083D309 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F329BE49165122240083D309 /* MainStoryboard_iPad.storyboard */; };
+		F329BE4E165122240083D309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE4D165122240083D309 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F329BE2A165122240083D309 /* LiU-Kursassistent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiU-Kursassistent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F329BE2E165122240083D309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F329BE30165122240083D309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F329BE32165122240083D309 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F329BE36165122240083D309 /* LiU-Kursassistent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiU-Kursassistent-Info.plist"; sourceTree = "<group>"; };
+		F329BE38165122240083D309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F329BE3A165122240083D309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F329BE3C165122240083D309 /* LiU-Kursassistent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiU-Kursassistent-Prefix.pch"; sourceTree = "<group>"; };
+		F329BE3D165122240083D309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F329BE3E165122240083D309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F329BE40165122240083D309 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F329BE42165122240083D309 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F329BE44165122240083D309 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F329BE47165122240083D309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F329BE4A165122240083D309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F329BE4C165122240083D309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F329BE4D165122240083D309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F329BE27165122240083D309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F329BE2F165122240083D309 /* UIKit.framework in Frameworks */,
+				F329BE31165122240083D309 /* Foundation.framework in Frameworks */,
+				F329BE33165122240083D309 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F329BE1F165122240083D309 = {
+			isa = PBXGroup;
+			children = (
+				F329BE34165122240083D309 /* LiU-Kursassistent */,
+				F329BE2D165122240083D309 /* Frameworks */,
+				F329BE2B165122240083D309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F329BE2B165122240083D309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F329BE2A165122240083D309 /* LiU-Kursassistent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F329BE2D165122240083D309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F329BE2E165122240083D309 /* UIKit.framework */,
+				F329BE30165122240083D309 /* Foundation.framework */,
+				F329BE32165122240083D309 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F329BE34165122240083D309 /* LiU-Kursassistent */ = {
+			isa = PBXGroup;
+			children = (
+				F329BE3D165122240083D309 /* AppDelegate.h */,
+				F329BE3E165122240083D309 /* AppDelegate.m */,
+				F329BE46165122240083D309 /* MainStoryboard_iPhone.storyboard */,
+				F329BE49165122240083D309 /* MainStoryboard_iPad.storyboard */,
+				F329BE4C165122240083D309 /* ViewController.h */,
+				F329BE4D165122240083D309 /* ViewController.m */,
+				F329BE35165122240083D309 /* Supporting Files */,
+			);
+			path = "LiU-Kursassistent";
+			sourceTree = "<group>";
+		};
+		F329BE35165122240083D309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F329BE36165122240083D309 /* LiU-Kursassistent-Info.plist */,
+				F329BE37165122240083D309 /* InfoPlist.strings */,
+				F329BE3A165122240083D309 /* main.m */,
+				F329BE3C165122240083D309 /* LiU-Kursassistent-Prefix.pch */,
+				F329BE40165122240083D309 /* Default.png */,
+				F329BE42165122240083D309 /* Default@2x.png */,
+				F329BE44165122240083D309 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F329BE29165122240083D309 /* LiU-Kursassistent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F329BE51165122240083D309 /* Build configuration list for PBXNativeTarget "LiU-Kursassistent" */;
+			buildPhases = (
+				F329BE26165122240083D309 /* Sources */,
+				F329BE27165122240083D309 /* Frameworks */,
+				F329BE28165122240083D309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiU-Kursassistent";
+			productName = "LiU-Kursassistent";
+			productReference = F329BE2A165122240083D309 /* LiU-Kursassistent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F329BE21165122240083D309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nils Kanevad";
+			};
+			buildConfigurationList = F329BE24165122240083D309 /* Build configuration list for PBXProject "LiU-Kursassistent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F329BE1F165122240083D309;
+			productRefGroup = F329BE2B165122240083D309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F329BE29165122240083D309 /* LiU-Kursassistent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F329BE28165122240083D309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F329BE39165122240083D309 /* InfoPlist.strings in Resources */,
+				F329BE41165122240083D309 /* Default.png in Resources */,
+				F329BE43165122240083D309 /* Default@2x.png in Resources */,
+				F329BE45165122240083D309 /* Default-568h@2x.png in Resources */,
+				F329BE48165122240083D309 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F329BE4B165122240083D309 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F329BE26165122240083D309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F329BE3B165122240083D309 /* main.m in Sources */,
+				F329BE3F165122240083D309 /* AppDelegate.m in Sources */,
+				F329BE4E165122240083D309 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F329BE37165122240083D309 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F329BE38165122240083D309 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F329BE46165122240083D309 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F329BE47165122240083D309 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F329BE49165122240083D309 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F329BE4A165122240083D309 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F329BE4F165122240083D309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F329BE50165122240083D309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F329BE52165122240083D309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiU-Kursassistent/LiU-Kursassistent-Prefix.pch";
+				INFOPLIST_FILE = "LiU-Kursassistent/LiU-Kursassistent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F329BE53165122240083D309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiU-Kursassistent/LiU-Kursassistent-Prefix.pch";
+				INFOPLIST_FILE = "LiU-Kursassistent/LiU-Kursassistent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F329BE24165122240083D309 /* Build configuration list for PBXProject "LiU-Kursassistent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F329BE4F165122240083D309 /* Debug */,
+				F329BE50165122240083D309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F329BE51165122240083D309 /* Build configuration list for PBXNativeTarget "LiU-Kursassistent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F329BE52165122240083D309 /* Debug */,
+				F329BE53165122240083D309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F329BE21165122240083D309 /* Project object */;
+}
