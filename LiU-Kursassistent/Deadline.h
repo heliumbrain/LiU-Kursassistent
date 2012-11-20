@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Deadline : NSObject
+@interface Deadline : NSManagedObject
 
 @end

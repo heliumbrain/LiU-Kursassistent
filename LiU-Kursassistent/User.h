@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface User : NSObject
+@interface User : NSManagedObject
 
 @end
