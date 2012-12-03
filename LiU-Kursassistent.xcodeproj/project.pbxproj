@@ -24,6 +24,7 @@
 		F329BE90165126C10083D309 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE8F165126C10083D309 /* MasterViewController.m */; };
 		F329BE93165126C10083D309 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE92165126C10083D309 /* DetailViewController.m */; };
 		F3B1BECC166CEB5000541A25 /* ModalViewControllerAddCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BECB166CEB5000541A25 /* ModalViewControllerAddCourse.m */; };
+		F3B1BECF166CF87F00541A25 /* saks-logotyp_color.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BECE166CF87F00541A25 /* saks-logotyp_color.png */; };
 		F3D0F44A1651286400A0D851 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F4491651286400A0D851 /* Course.m */; };
 		F3D0F44E1651286C00A0D851 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F44D1651286C00A0D851 /* User.m */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		F329BE92165126C10083D309 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F3B1BECA166CEB5000541A25 /* ModalViewControllerAddCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewControllerAddCourse.h; sourceTree = "<group>"; };
 		F3B1BECB166CEB5000541A25 /* ModalViewControllerAddCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewControllerAddCourse.m; sourceTree = "<group>"; };
+		F3B1BECE166CF87F00541A25 /* saks-logotyp_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saks-logotyp_color.png"; sourceTree = "<group>"; };
 		F3D0F4481651286400A0D851 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		F3D0F4491651286400A0D851 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		F3D0F44C1651286C00A0D851 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -131,12 +133,13 @@
 		F329BE74165126C10083D309 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3B1BECE166CF87F00541A25 /* saks-logotyp_color.png */,
 				F329BE75165126C10083D309 /* LiU-Kursassistent-Info.plist */,
 				F329BE76165126C10083D309 /* InfoPlist.strings */,
 				F329BE79165126C10083D309 /* main.m */,
 				F329BE7B165126C10083D309 /* LiU-Kursassistent-Prefix.pch */,
-				F329BE7F165126C10083D309 /* Default.png */,
 				F329BE81165126C10083D309 /* Default@2x.png */,
+				F329BE7F165126C10083D309 /* Default.png */,
 				F329BE83165126C10083D309 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -199,6 +202,7 @@
 				F329BE84165126C10083D309 /* Default-568h@2x.png in Resources */,
 				F329BE87165126C10083D309 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F329BE8A165126C10083D309 /* MainStoryboard_iPad.storyboard in Resources */,
+				F3B1BECF166CF87F00541A25 /* saks-logotyp_color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
