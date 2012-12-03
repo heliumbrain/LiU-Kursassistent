@@ -23,6 +23,7 @@
 		F329BE8D165126C10083D309 /* LiU_Kursassistent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F329BE8B165126C10083D309 /* LiU_Kursassistent.xcdatamodeld */; };
 		F329BE90165126C10083D309 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE8F165126C10083D309 /* MasterViewController.m */; };
 		F329BE93165126C10083D309 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F329BE92165126C10083D309 /* DetailViewController.m */; };
+		F3B1BECC166CEB5000541A25 /* ModalViewControllerAddCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BECB166CEB5000541A25 /* ModalViewControllerAddCourse.m */; };
 		F3D0F44A1651286400A0D851 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F4491651286400A0D851 /* Course.m */; };
 		F3D0F44E1651286C00A0D851 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D0F44D1651286C00A0D851 /* User.m */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,8 @@
 		F329BE8F165126C10083D309 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		F329BE91165126C10083D309 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F329BE92165126C10083D309 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F3B1BECA166CEB5000541A25 /* ModalViewControllerAddCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewControllerAddCourse.h; sourceTree = "<group>"; };
+		F3B1BECB166CEB5000541A25 /* ModalViewControllerAddCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewControllerAddCourse.m; sourceTree = "<group>"; };
 		F3D0F4481651286400A0D851 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		F3D0F4491651286400A0D851 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		F3D0F44C1651286C00A0D851 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		F329BE73165126C10083D309 /* LiU-Kursassistent */ = {
 			isa = PBXGroup;
 			children = (
+				F3B1BECA166CEB5000541A25 /* ModalViewControllerAddCourse.h */,
+				F3B1BECB166CEB5000541A25 /* ModalViewControllerAddCourse.m */,
 				8F6AB10C16512A3B00838BED /* Deadline.h */,
 				8F6AB10D16512A3B00838BED /* Deadline.m */,
 				F3D0F4481651286400A0D851 /* Course.h */,
@@ -212,6 +217,7 @@
 				F3D0F44A1651286400A0D851 /* Course.m in Sources */,
 				F3D0F44E1651286C00A0D851 /* User.m in Sources */,
 				8F6AB10E16512A3B00838BED /* Deadline.m in Sources */,
+				F3B1BECC166CEB5000541A25 /* ModalViewControllerAddCourse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
